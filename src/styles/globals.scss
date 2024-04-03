@@ -1,0 +1,33 @@
+// sass-utils
+@import "./sass-utils/fonts";
+
+// vendors
+@import "./vendors/_antd";
+
+// base
+@import "./base/_reset";
+
+// variables
+@import "./sass-utils/_variables";
+
+.cursor {
+  cursor: pointer;
+  &-delete {
+    cursor: pointer;
+    color: red;
+    :hover {
+      transform: scale(1.1);
+    }
+  }
+  :hover {
+    transform: scale(1.1);
+  }
+}
+
+.wFull {
+  width: 100%;
+}
+
+.ant-modal-confirm-content {
+  font-weight: 400;
+}
